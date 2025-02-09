@@ -1,8 +1,8 @@
 name: Execute On Schedule
 
-on:
-  schedule:
-    - cron: '30 */1 * * *' # Executes at 25 minutes past the hour, every 2 hours.
+# on:
+#   schedule:
+#     - cron: '30 */1 * * *' # Executes at 25 minutes past the hour, every 2 hours.
 
 jobs:
   build:
